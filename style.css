@@ -12,6 +12,10 @@
 #back {
 	font-size: 20pt;
 }
+#figure1 {
+	text-align: center;
+}
+
 /*****************************NAV******************************/
 nav{
 	text-align: right;
@@ -23,8 +27,8 @@ nav a {
 } 
 nav a:link { color: white;}
 nav a:visited { color: white; }
-nav a:hover { color: lime; transition: 2s;}
-a:link {text-decoration: none; color: darkgreen;}
+nav a:hover { color: lightgreen; transition: 2s;}
+a:link {text-decoration: none; color: lightgreen;}
 #resume {
 	background-color: rgb(245, 245, 245);
 	border: none;
@@ -53,6 +57,7 @@ body {
 	background-image: url('pictures/background.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 	font-family: 'KoHo', sans-serif;
 	color:white;
 }
@@ -75,7 +80,7 @@ main {
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
-main a:visited {color: lime;}
+main a:visited {color: lightgrey;}
 main a:hover {color: green; transition: 2s;}
 
 main img {
