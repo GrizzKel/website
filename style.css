@@ -16,6 +16,9 @@
 	text-align: center;
 }
 
+a:link {
+	text-decoration: none;
+}
 /*****************************NAV******************************/
 nav{
 	text-align: right;
@@ -25,10 +28,25 @@ nav{
 nav a {
 	padding: 1em;
 } 
-nav a:link { color: white;}
-nav a:visited { color: white; }
-nav a:hover { color: lightgreen; transition: 2s;}
-a:link {text-decoration: none; color: lightgreen;}
+nav a:link {
+	color: lightgreen;
+	background-color: transparent;
+}
+nav a:visited {
+	color: white;
+	background-color: transparent;
+}
+nav a:hover {
+	color: grey;
+	background-color: transparent;
+	transition: 0.5s
+}
+nav a:active {
+	color: greenyellow;
+	background-color: transparent;
+}
+
+
 #resume {
 	background-color: rgb(245, 245, 245);
 	border: none;
@@ -41,6 +59,7 @@ a:link {text-decoration: none; color: lightgreen;}
 	background-color: green;
 	color: white;
 	transition: 1s;
+	cursor: pointer;
 }
 .btn {
 	background-color: rgb(235, 235, 235);
@@ -80,8 +99,24 @@ main {
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
-main a:visited {color: lightgrey;}
-main a:hover {color: green; transition: 2s;}
+
+main a:link {
+	color: lightgreen;
+	background-color: transparent;
+}
+main a:visited {
+	color: white;
+	background-color: transparent;
+}
+main a:hover {
+	color: grey;
+	background-color: transparent;
+	transition: 0.5s
+}
+main a:active {
+	color: greenyellow;
+	background-color: transparent;
+}
 
 main img {
 	display: block;
@@ -125,13 +160,13 @@ footer {
 /*
 * TABLET
 */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
 
-}
+} */
 /*
 * MOBILE
 */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	#kelvin {
 		font-size: 10pt;
 		font-family: 'KoHo', sans-serif;
@@ -188,4 +223,4 @@ footer {
 		margin-right: auto;
 	}
 
-}
+} */
