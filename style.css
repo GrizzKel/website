@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
 * {
-	box-sizing: border-box;
-	border-radius: 0.5em;
+
 }
 #kelvin {
 	text-align: left;
@@ -19,16 +18,26 @@
 a:link {
 	text-decoration: none;
 }
-/*****************************NAV******************************/
-nav{
-	text-align: right;
-	margin-right: 5em;
-	margin-left: 5em;
+header {
+
 }
-nav a {
-	padding: 1em;
+/*****************************NAV******************************/
+.navbar{
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 } 
-nav a:link {
+/* nav a:link {
 	color: lightgreen;
 	background-color: transparent;
 }
@@ -44,7 +53,7 @@ nav a:hover {
 nav a:active {
 	color: greenyellow;
 	background-color: transparent;
-}
+} */
 
 
 #resume {
@@ -79,6 +88,7 @@ body {
 	background-size: cover;
 	font-family: 'KoHo', sans-serif;
 	color:white;
+	margin: 0;
 }
 @keyframes fadeInAnimation {
 	0% {
